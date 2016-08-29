@@ -1,0 +1,43 @@
+
+body {
+
+	color:black;
+	background: cyan;
+	margin-top:50px;
+}
+
+#wrapper{
+ display:-webkit-box;
+  
+ 
+  margin:20px auto;
+  background:cyan;
+  -webkit-box-orient:vertical;
+  -webkit-box-flex:1;
+  -webkit-box-pack:center;
+	
+}
+
+#login_form{
+	display:-webkit-box;
+	max-width:400px;
+	-webkit-box-orient:vertical;
+    -webkit-box-flex:1;
+    -webkit-box-pack:center;
+	background: red;
+	position: relative;
+	text-align: center;
+	margin:20px auto;
+	padding :50px;
+	width:350px;
+	color:white;
+	font-size: 20px;
+	border-radius: 15px;
+
+}
+
+a{
+
+	color: white;
+
+}

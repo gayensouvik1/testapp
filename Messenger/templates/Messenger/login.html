@@ -1,0 +1,25 @@
+
+
+
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'Messenger/login.css' %}" />
+	
+
+	
+		<div id ="wrapper">
+			<form action="{%url 'logpro'%}" method="POST" id="login_form">
+			{% csrf_token %}
+				Username <input type="text" placeholder="Username" name="Username" style="border-radius:4px;font-size:18px;" required>
+				<br><br>
+				Passwword <input type="password" placeholder="Password" name="Password" style="border-radius:4px;font-size:18px;" required>
+				<br><br>
+				<input type="submit" text="Login" style="font-size:20px;border-radius:4px"/>
+				<br><br>
+				<div>
+		      Don't have an account ?.<a href ="{%url 'register'%}">Create</a> a new account
+				</div>
+
+			</form>
+		</div>
+
+		

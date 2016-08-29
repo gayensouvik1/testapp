@@ -1,0 +1,31 @@
+
+body{
+	background:cyan;
+}
+
+
+#wrapper{
+
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+
+	-webkit-box-pack:center;
+	-webkit-box-flex:1;
+
+}
+
+#register_form{
+
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+
+	-webkit-box-pack:center;
+	margin:100px auto;
+	-webkit-box-flex:1;
+	background: red;
+	color:white;
+	font-size: 20px;
+	padding:50px 80px ;
+	border-radius: 10px;
+	text-align: center;
+}

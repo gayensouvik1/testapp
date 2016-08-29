@@ -1,0 +1,27 @@
+
+
+<html>
+	<head>
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'Messenger/register.css'%}"/>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<form action="{%url 'regpro' %}" method="POST" id="register_form">
+			{% csrf_token %}
+				Name: <input type="text" placeholder="Name" name="Name" style="font-size:20px;border-radius:4px;" required>
+				<br><br>
+				Username: <input type="text" placeholder="Username" name="Username" style="font-size:20px;border-radius:4px" required>
+				<br><br>
+				Passwword: <input type="password" placeholder="Password" name="Password" style="font-size:20px;border-radius:4px" required>
+				<br><br>
+				Contact: <input type="text" placeholder="mobile or email" name="Contact" style="font-size:20px;border-radius:4px" required>
+				<br><br>
+				<input type="submit" value="sign up" style="font-size:20px;border-radius:4px">
+			</form>
+		</div>
+
+	</body>
+
+</html

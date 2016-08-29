@@ -1,0 +1,33 @@
+h1{
+
+padding:10px 20px;
+    background: black;
+    display: -webkit-box;
+	-webkit-box-align:horizontal;	
+	-webkit-box-flex:1;
+	-webkit-box-pack:center;
+	max-width: 500px;
+}
+
+#sorry{
+	background: white;
+	opacity:0.9;
+	color:white;
+	padding:0px 20px;
+	display: -webkit-box;
+	-webkit-box-align:horizontal;
+	-webkit-box-flex:1;
+	-webkit-box-pack:center;
+	//max-width: 500px;
+}
+
+h2{
+	background: black;
+	opacity: 0.8;
+	color:white;
+	padding:10px 20px;
+}
+
+a{
+	color: white;
+}

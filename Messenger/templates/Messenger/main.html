@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	{%load staticfiles%}
+	<link rel="stylesheet" type="text/css" href="{%static 'Messenger/main.css'%}"/>
+
+	<script>
+	var i=0;
+	function show(){
+		i++;
+		if(i%2)
+	document.getElementById('sender_list').style.display="block";
+ 			else
+ 				document.getElementById('sender_list').style.display="none";
+
+	}
+	</script>
+<style>
+
+</style>
+</head>
+
+<body>
+   <div id="wrapper">
+	hey there.you are successfully logged in.
+  </div>
+
+<script type="text/javascript">
+	//console.log({{message.sender}}:{{message.message_text}});
+	//console.log({{message.sender}});
+</script>
+</body>
+</html>

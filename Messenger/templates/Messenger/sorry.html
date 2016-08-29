@@ -1,0 +1,16 @@
+<html>
+	<head>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'Messenger/sorry.css'%}">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="sorry"><h1>Sorry, wrong input!</h1></div>
+
+		<div id="sorry"><h2>Go back to <a href ="{%url 'register'%}">Register</a> / <a href ="{%url 'login'%}">Login</a> page</h2>
+		</div>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,49 @@
+body{
+	background: grey;
+
+}
+
+#wrapper{
+	padding:250;
+	background: #FF7F50;
+	padding: 20px;
+	width:auto;
+	height:auto;
+	float:center;
+	
+
+}
+
+#personal_info{
+
+	margin:10px 50px;
+	float:right;
+}
+
+#send_message{
+	margin:60px 50px;
+}
+
+#sender_list{
+	display:none;
+	position: relative;
+	float:center;
+	
+	background: gray;
+	height: auto;
+	width:auto;
+	top:-20px;
+}
+
+#show{
+	position: fixed;
+	bottom:20;
+	float:right;
+	right: 50;
+	
+	color:white;
+	opacity: 0.9;
+	padding:10;
+	width:200;
+	text-align: center;
+}
